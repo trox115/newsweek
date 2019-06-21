@@ -96,9 +96,21 @@ nav li{
     flex-grow:1;
     border-left:1px solid gray;
 }
+nav li:hover{
+    cursor: pointer;
+    color:red;
+}
+nav li:last-child:hover{
+    cursor: default;
+    color: black;
+}
 
 nav li:first-child{
     flex-grow:1;
     border-left:0px solid gray;
 }
 
+nav li input{
+    width: 66px;
+    border: none;
+}
