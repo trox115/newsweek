@@ -1,6 +1,6 @@
 header{
     width: 100% ;
-    height: 151px ;
+    height: 95px ;
     background: red ;
     
 
@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     height:95px;
-    width: 98%;
+    width: 100%;
 }
 .date{
   justify-content: flex-start;
@@ -63,13 +63,42 @@ text-decoration: none;
     width: 154px;
 }
 
-
+nav:before{
+    position: absolute;
+top: 95px;
+right: 0;
+content: "";
+display: block;
+width: 22px;
+background-color: #f72210;
+border-left: 12px solid white;
+border-top: 13px solid #f72210;
+width: 66px;
+}
 
 nav{
     width: 100%;
     height:56px;
+    border-bottom: 1px solid gray;
+}
+nav ul{
     display: flex;
-    background: grey;
+    list-style:none;
+    line-height: 24px;
+    font-size:18px;
+    font-weight: 700;
+    height: 56px;
+    align-items: center;
+    text-align: center;
+    padding:0px;
+}
+nav li{
+    flex-grow:1;
+    border-left:1px solid gray;
 }
 
+nav li:first-child{
+    flex-grow:1;
+    border-left:0px solid gray;
+}
 
