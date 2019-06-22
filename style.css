@@ -211,3 +211,50 @@ color:black;
     text-align: center;
     border-bottom: 1px solid gray;
 }
+
+.magazine-wrapper{
+    width: 100%;
+
+}
+
+.mag-img{
+    width: 100%;
+}
+.mag-img img{
+    width: 100%;
+}
+
+.tags-mag{
+    display:flex;
+    align-items: baseline;
+    text-align: center;
+    margin-top:2%;
+}
+.tags-mag h4{
+margin-left: 4%;
+color:red;
+font-size:1rem;
+font-weight: 700;
+}
+.tags-mag h3{
+    background: red;
+    color:white;
+    font-size:1rem;
+    width: 30%;
+    height:20%;
+    vertical-align: middle;
+    font-weight: 700;
+    }
+
+    .seefeatures {
+        width: 100%;
+        background: rgb(218, 214, 214);
+        text-align:center;
+        
+    }
+    .seefeatures a{
+        color:black;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+    }
