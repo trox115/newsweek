@@ -272,3 +272,13 @@ z-index: 1;
 width: 30%;
     }
     
+    .subtitle-block p{
+        color:red;
+        font-weight: 900;
+        font-size: 18px;
+        
+    }
+    .line{
+        border-bottom:1px solid gray;
+        height: 1%;
+    }
