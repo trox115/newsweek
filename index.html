@@ -33,7 +33,11 @@
 
   <body>
     <header>
+        <div class="top">
+            sd
+          </div>
       <div class="max-w">
+       
         <div class="date">
           <p>Fri, Jun 21, 2019</p>
         </div>
@@ -47,6 +51,7 @@
       </div>
 
       <nav>
+          
         <ul>
           <li>U.S</li>
           <li>World</li>
@@ -1970,5 +1975,19 @@ NBA Trade Rumors: Free Agency Predictions for Every Top Player</a>
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+
+        // Catch scroll event
+$( window ).scroll(function() {
+  // If user didn't scroll 1200px set default z-index
+  if ($(this).scrollTop()<151) { 
+      $(".top" ).css( "z-index", -1);
+  } else {
+      // If user scrolled 1200px change logo's z-index to 9999  
+      $(".top" ).css( "z-index", 9999);
+  }
+});
+        
+        </script>
   </body>
 </html>
