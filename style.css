@@ -17,7 +17,7 @@ nav{
 
 .subscribe-top2 a{
     justify-content: center;
-    margin-right: 8%;
+    margin-right: 1% !important;
     color:white;
     font-weight: 600;
     font-size:1em !important;
