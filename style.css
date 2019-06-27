@@ -572,3 +572,7 @@ font-weight: 900;
       .other img{
         width: 100%;
     }
+    .sticky-top article{
+        position:relative;
+        top:0;
+    }
