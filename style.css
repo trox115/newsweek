@@ -5,21 +5,21 @@
     }
     .subscribe-top2 {
         
-        align-items: center ;
+        align-items: center !important;
     }
     .subscribe-top2 a{
         justify-content: center;
         margin-right: 1% ;
         color:white;
         font-weight: 600;
-        font-size:10px ;
-        line-height: 20px ;
+        font-size:10px !important;
+        line-height: 20px !important;
         
         }
         .subscribe-top2 #subscribe2{
             background: white;
             color:red;
-            width: 79px ;
+            width: 79px !important;
         }
 }
 
