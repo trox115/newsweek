@@ -1,4 +1,30 @@
-@media (max-width: 990px){
+@media (max-width: 500px){
+    .left img{
+        width:100% !important;
+        height: auto !important;
+    }
+    .subscribe-top2 {
+        
+        align-items: center !important;
+    }
+    .subscribe-top2 a{
+        justify-content: center;
+        margin-right: 1% ;
+        color:white;
+        font-weight: 600;
+        font-size:10px !important;
+        line-height: 20px !important;
+        
+        }
+        .subscribe-top2 #subscribe2{
+            background: white;
+            color:red;
+            width: 79px !important;
+        }
+}
+
+
+@media (max-width: 990px) and (min-width:500px){
 nav{
     display:none;
 
@@ -597,3 +623,4 @@ position: absolute;
 bottom: -4px;
 right: -4px;
     }
+
