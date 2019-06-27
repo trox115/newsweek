@@ -1,30 +1,30 @@
 @media (max-width: 500px){
     .left img{
-        width:100% !important;
-        height: auto !important;
+        width:100% ;
+        height: auto ;
     }
     .subscribe-top2 {
         
-        align-items: center !important;
+        align-items: center ;
     }
     .subscribe-top2 a{
         justify-content: center;
         margin-right: 1% ;
         color:white;
         font-weight: 600;
-        font-size:10px !important;
-        line-height: 20px !important;
+        font-size:10px ;
+        line-height: 20px ;
         
         }
         .subscribe-top2 #subscribe2{
             background: white;
             color:red;
-            width: 79px !important;
+            width: 79px ;
         }
 }
 
 
-@media (max-width: 990px) and (min-width:500px){
+@media (max-width: 990px) and (min-width:501px){
 nav{
     display:none;
 
@@ -41,15 +41,27 @@ nav{
     margin-bottom: 8% !important;
 }
 
+.subscribe-top2 {
+        
+    align-items: center !important;
+}
 .subscribe-top2 a{
     justify-content: center;
-    margin-right: 1% !important;
+    margin-right: 1% ;
     color:white;
     font-weight: 600;
-    font-size:1em !important;
-    line-height: 40px !important;
+    font-size:12px !important;
+    line-height: 25px !important;
     
     }
+    .subscribe-top2 #subscribe2{
+        background: white;
+        color:red;
+        width: 79px !important;
+    }
+
+    
+ 
 
 header{
     display:none;
