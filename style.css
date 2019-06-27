@@ -297,6 +297,7 @@ color:black;
     font-size:19px;
     text-align: center;
     border-bottom: 1px solid #f4f5f6;
+    align-items: baseline;
 }
 
 .magazine-wrapper{
@@ -575,4 +576,24 @@ font-weight: 900;
     .sticky-top article{
         position:relative;
         top:0;
+    }
+
+    .icon-n {
+        position: relative;
+display: block;
+width: 29px;
+height: 28px;
+background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+margin-right: 10px;
+    }
+    .shadow{
+        border-bottom: 3px solid red;
+border-right: 3px solid red;
+display: block;
+content: "";
+width: 26px;
+height: 25px;
+position: absolute;
+bottom: -4px;
+right: -4px;
     }
